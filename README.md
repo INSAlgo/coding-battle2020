@@ -1,27 +1,27 @@
 # Shaker 2020 - Coding Battle
 
-Problem statements and solutions for the 2020 Coding Battle, organised by [Le Shaker](https://le-shaker.com/en/).
+Problem statements and solutions for the 2020 Coding Battle, hosted by [Le Shaker](https://le-shaker.com/en/).
 Problem designed and written by [INSAlgo](https://insalgo.fr/), a student Union from INSA Lyon.
 
 
 
 * **Pre Coding Battle** (statements only available in french for now)
-  * Problem A : Live transmision
-  * Problem B : Emergency in Meudon
-  * Problem C : Tricycle Chamionship
+  * [Problem A](pre-contest/a_retransmission) : Live transmision
+  * [Problem B](pre-contest/urgence_a_meudon) : Emergency in Meudon
+  * [Problem C](pre-contest/) : Tricycle Chamionship
 * **Coding Battle**
-  * Problem A : Discounted tickets
-  * Problem B : Heading to the top
-  * Problem C : Can everyone hear well ?
-  * Problem D : Damaged ticket
-  * Problem E : Cursed bingo
-  * Problem F : Merch time !
+  * [Problem A](contest/a_tickets) : Discounted tickets
+  * [Problem B](contest/b_nom_de_groupe)  : Heading to the top
+  * [Problem C](contest/c_niveau_audition)  : Can everyone hear well ?
+  * [Problem D](contest/d_code_barre) : Damaged ticket
+  * [Problem E](contest/e_cursed_bingo) : Cursed bingo
+  * [Problem F](contest/f_goodies) : Merch time !
 
 
 
 ## How to contribute
 
-The solutions available are the ones we wrote and solutions from contributors that we approved. There are often many ways to solve a problem. Our solutions are not perfect but adapted to the skills we wanted to evaluate at each task. Please **feel free to add the solutions for the missing languages**, or better solutions than the ones we did, by forking this repository and submitting a pull request.
+The solutions available are the ones we wrote and solutions from contributors that we approved. There are often many ways to solve a problem. Our solutions are not perfect but adapted to the skills we wanted to evaluate at each task. Please **feel free to add the solutions for the missing languages**, or better solutions than the ones we did, by forking this repository and submitting a pull request. Add your solution under the `sol/` folder in the problem directory. Add your name on the first line as a comment
 
 If you translate an existing solution in a new language, please try to follow the structure, naming conventions and comments of the existing solution. Thanks for contributing :)
 
