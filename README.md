@@ -1,13 +1,12 @@
 # Shaker 2020 - Coding Battle
 
-Problem statements and solutions for the 2020 Coding Battle, hosted by [Le Shaker](https://le-shaker.com/en/).
-Problem designed and written by [INSAlgo](https://insalgo.fr/), a student Union from INSA Lyon.
+Problem statements and solutions for the 2020 Coding Battle, hosted by [Le Shaker](https://le-shaker.com/en/), a programming contest designed and written by [INSAlgo](https://insalgo.fr/), a student Union from INSA Lyon.
 
 
 
 * **Pre Coding Battle** (statements only available in french for now)
   * [Problem A](pre-contest/a_retransmission) : Live transmision
-  * [Problem B](pre-contest/urgence_a_meudon) : Emergency in Meudon
+  * [Problem B](pre-contest/b_urgence_a_meudon) : Emergency in Meudon
   * [Problem C](pre-contest/) : Tricycle Chamionship
 * **Coding Battle**
   * [Problem A](contest/a_tickets) : Discounted tickets
