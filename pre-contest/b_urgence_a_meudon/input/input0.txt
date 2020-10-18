@@ -1,0 +1,202 @@
+405 95
+200
+b 6
+v m 6
+b 9
+v m 3
+b 5
+b 10
+v m 8
+b 14
+b 5
+b 11
+b 17
+b 13
+b 6
+v m 2
+b 15
+b 20
+b 13
+v m 4
+b 13
+v m 8
+v r 8
+b 17
+v m 8
+v m 1
+v m 8
+b 7
+b 8
+v r 6
+b 6
+v m 6
+v m 7
+v m 5
+v r 1
+b 15
+b 9
+v m 5
+b 15
+v m 2
+b 9
+v r 4
+b 13
+b 8
+b 20
+v m 8
+b 18
+v m 3
+b 20
+b 20
+b 17
+b 10
+v r 4
+v m 1
+b 5
+b 8
+v r 7
+b 10
+b 11
+b 18
+b 19
+b 16
+v m 1
+v m 3
+b 5
+b 20
+b 20
+b 7
+b 20
+b 19
+b 5
+v m 8
+v m 8
+v r 2
+b 5
+b 7
+v r 8
+b 10
+v m 1
+v m 8
+b 16
+b 17
+v r 2
+b 11
+v r 1
+b 6
+b 18
+b 5
+v m 4
+v r 7
+b 5
+v m 4
+v r 4
+v m 3
+v r 2
+b 19
+v r 4
+b 7
+b 17
+b 17
+v m 7
+b 12
+b 15
+v r 2
+b 9
+b 20
+b 20
+v r 2
+b 5
+v m 7
+v r 4
+b 18
+v r 8
+v r 6
+v m 3
+v m 8
+b 20
+b 12
+b 14
+b 13
+v m 5
+b 9
+b 16
+v r 8
+b 12
+v r 1
+v r 1
+b 9
+b 11
+b 8
+b 18
+v r 4
+b 6
+v m 8
+b 10
+v r 8
+b 8
+b 11
+v r 2
+b 12
+v m 1
+b 18
+b 8
+v r 8
+v m 5
+v r 6
+b 13
+v m 2
+b 14
+v m 5
+b 10
+v m 6
+b 17
+b 6
+v m 4
+b 17
+b 11
+b 16
+v m 5
+b 7
+b 6
+b 8
+b 14
+v m 6
+b 13
+b 10
+b 18
+v r 1
+b 6
+b 8
+b 10
+b 14
+b 18
+b 8
+v r 1
+v r 8
+v m 2
+b 7
+v m 3
+v m 1
+v m 6
+v m 2
+b 11
+b 5
+v r 5
+b 5
+b 18
+b 16
+b 19
+b 17
+v m 4
+b 12
+b 14
+v m 5
+b 6
+v r 3
+b 8
+b 8
+b 15
+b 13
+b 14
+b 14

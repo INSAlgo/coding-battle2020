@@ -1,0 +1,22 @@
+71 29
+20
+v m 5
+v m 5
+v m 2
+v m 7
+v m 7
+v m 1
+v m 4
+v m 6
+v r 2
+v m 1
+v m 8
+v m 3
+v m 2
+v r 1
+v m 4
+v m 3
+v m 3
+v r 6
+v m 4
+v r 3

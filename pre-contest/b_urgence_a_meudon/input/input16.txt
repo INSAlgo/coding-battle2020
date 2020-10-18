@@ -1,0 +1,52 @@
+5 7
+50
+b 13
+b 15
+b 7
+b 9
+b 13
+v m 3
+b 14
+v r 2
+v m 1
+b 11
+b 17
+b 12
+v m 2
+b 7
+b 18
+b 7
+b 5
+v m 8
+v m 4
+v m 5
+b 7
+b 7
+v m 4
+b 12
+b 12
+b 8
+b 5
+v m 6
+b 14
+v r 4
+v m 7
+v m 8
+b 19
+v r 7
+v r 5
+v m 4
+v m 7
+v r 2
+b 11
+b 19
+b 15
+b 10
+v r 8
+b 13
+b 16
+b 19
+v m 6
+b 10
+v m 4
+v m 2
