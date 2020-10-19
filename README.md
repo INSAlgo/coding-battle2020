@@ -1,6 +1,6 @@
 # Shaker 2020 - Coding Battle
 
-Problem statements and solutions for the 2020 Coding Battle, hosted by [Le Shaker](https://le-shaker.com/en/), a programming contest designed and written by [INSAlgo](https://insalgo.fr/), a student Union from INSA Lyon.
+Problem statements and solutions for the 2020 Coding Battle, hosted by [Le Shaker](https://le-shaker.com/en/), a programming contest designed and written by [INSAlgo](https://insalgo.fr/), a student union from INSA Lyon.
 
 
 
@@ -58,7 +58,7 @@ This repo is under MIT license (see details below). **However, some of the pictu
 ```
 MIT License
 
-Copyright (c) 2019 INSAlgo
+Copyright (c) 2020 INSAlgo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
