@@ -1,3 +1,5 @@
+// Solution by Emma Neiss
+
 #include <iostream>
 
 using namespace std;
