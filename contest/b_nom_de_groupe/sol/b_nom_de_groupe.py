@@ -1,8 +1,6 @@
 # Solution by Emma Neiss
 
-def voyelle(char):
-    return char in ['a', 'e', 'i', 'o', 'u', 'y']
-
+VOWELS = {'a', 'e', 'i', 'o', 'u', 'y'}
 
 def palindrome(name):
     """
@@ -25,7 +23,7 @@ def score(name):
     cons = 0
     voy = 0
     for char in name:
-        if voyelle(char):
+        if char in VOWELS:
             voy += 1
         else:
             cons += 1
