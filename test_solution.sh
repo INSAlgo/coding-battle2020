@@ -85,14 +85,21 @@ case "${EXTENSION}" in
         which python2 || { echo "Python 2 is not installed."; exit 1; }
         COMMAND_LINE="python2 ${SOURCE_CODE_PATH}"
         ;;
-    c|cpp)
+    c|cpp|rs)
         if [ "${EXTENSION}" = "c" ]; then
             LANGUAGE="C"
             COMPILER="gcc"
+            COMPILER_FLAGS=(-O2)
         fi
         if [ "${EXTENSION}" = "cpp" ]; then
             LANGUAGE="C++"
             COMPILER="g++"
+            COMPILER_FLAGS=(-O2)
+        fi
+        if [ "${EXTENSION}" = "rs" ]; then
+            LANGUAGE="Rust"
+            COMPILER="rustc"
+            COMPILER_FLAGS=(-O -C target-cpu=native)
         fi
         echo "Detected ${LANGUAGE}."
 
@@ -101,7 +108,7 @@ case "${EXTENSION}" in
 
         which ${COMPILER} || { echo "${COMPILER} is not installed."; exit 1; }
 
-        if ! ${COMPILER} -O2 "${SOURCE_CODE_PATH}" -o "${BINARY}"; then
+        if ! ${COMPILER} "${COMPILER_FLAGS[@]}" "${SOURCE_CODE_PATH}" -o "${BINARY}"; then
             echo "Failed to compile: ${SOURCE_CODE_PATH}"
             exit 1
         fi
