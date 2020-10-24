@@ -3,26 +3,23 @@
 #include <iostream>
 #include <string>
 
-int score(std::string name) {
-  int l = name.size();
+int score(std::string& name) {
+  const int l = name.size();
   bool bonus = false;
-  const char *name_array = name.c_str();
 
-  int nv = 0, nc = 0;
-#pragma omp parallel for reduction(+ : nv, nc) schedule(guided)
+  int nv = 0;
+#pragma omp parallel for reduction(+ : nv) schedule(guided)
   for (int i = 0; i < l; i++) {
-    char c = name_array[i];
+    char c = name[i];
     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y')
       nv++;
-    else
-      nc++;
   }
-  int s = 2 * nv - nc;
+  int s = 3 * nv - l;
 
 #pragma omp parallel for reduction(|| : bonus) schedule(guided)
   for (int i = 0; i < l; i++) {
-    bonus = bonus || (i < l - 2 && name_array[i] == 'k' &&
-                      name_array[i + 1] == 'e' && name_array[i + 2] == 'r');
+    bonus = bonus || (i < l - 2 && name[i] == 'k' &&
+                      name[i + 1] == 'e' && name[i + 2] == 'r');
   }
 
   if (bonus)
@@ -32,7 +29,7 @@ int score(std::string name) {
     bool palindrome = true;
 #pragma omp parallel for reduction(&& : palindrome) schedule(guided)
     for (int i = 0; i < l / 2; i++) {
-      palindrome = palindrome && name_array[i] == name_array[l - 1 - i];
+      palindrome = palindrome && name[i] == name[l - 1 - i];
     }
     if (palindrome)
       s *= 2;
