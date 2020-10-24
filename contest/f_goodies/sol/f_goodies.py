@@ -81,7 +81,7 @@ else:
                     if taille + valeur_carte <= taille_sac and sac_possible[taille] == 1:
                         sac_possible[taille + valeur_carte] = 1
         if not sac_possible[taille_sac]:
-            print("POSSIBLE")
+            print("OUI")
             break
     else:
-        print("IMPOSSIBLE")
+        print("NON")
