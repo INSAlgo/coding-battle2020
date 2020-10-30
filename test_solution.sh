@@ -104,10 +104,6 @@ case "${EXTENSION}" in
         if [ "${EXTENSION}" = "hs" ]; then
             LANGUAGE="Haskell"
             COMPILER="ghc"
-        fi
-        if [ "${EXTENSION}" = "hs" ]; then
-            LANGUAGE="Haskell"
-            COMPILER="ghc"
             COMPILER_FLAGS=(-no-keep-hi-files -no-keep-o-files)
         fi
         echo "Detected ${LANGUAGE}."
