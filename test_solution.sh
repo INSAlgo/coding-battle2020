@@ -105,6 +105,11 @@ case "${EXTENSION}" in
             LANGUAGE="Haskell"
             COMPILER="ghc"
         fi
+        if [ "${EXTENSION}" = "hs" ]; then
+            LANGUAGE="Haskell"
+            COMPILER="ghc"
+            COMPILER_FLAGS=(-no-keep-hi-files -no-keep-o-files)
+        fi
         echo "Detected ${LANGUAGE}."
 
         TEMP_DIR=$(get_new_temp_dir) || exit 2
