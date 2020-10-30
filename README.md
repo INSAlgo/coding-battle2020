@@ -43,6 +43,11 @@ js sol.js < ../input/input0.txt
 # etc
 ```
 
+We also provide a way to automatically run your script against the solutions : `test_solution.sh` and `test_all_solutions.sh`.
+Usage : `./test_solution.sh <path_to_solution>`. Supported languages : Python 3, Python 2, C, C++, Rust, Haskell, Java, Elixir, Groovy. You must have the language interpreter/compiler installed in order for the script to work.
+
+Because it can run unverified programs, use this script at your own risk.
+
 ## Common mistakes
 
 We read a lot of your submissions in the last few contests, and received many questions. Here is some advice if you want to avoid common mistakes:
