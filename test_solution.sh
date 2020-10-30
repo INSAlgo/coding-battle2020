@@ -85,7 +85,7 @@ case "${EXTENSION}" in
         which python2 || { echo "Python 2 is not installed."; exit 1; }
         COMMAND_LINE="python2 ${SOURCE_CODE_PATH}"
         ;;
-    c|cpp|rs)
+    c|cpp|rs|hs)
         if [ "${EXTENSION}" = "c" ]; then
             LANGUAGE="C"
             COMPILER="gcc"
@@ -100,6 +100,11 @@ case "${EXTENSION}" in
             LANGUAGE="Rust"
             COMPILER="rustc"
             COMPILER_FLAGS=(-O -C target-cpu=native)
+        fi
+        if [ "${EXTENSION}" = "hs" ]; then
+            LANGUAGE="Haskell"
+            COMPILER="ghc"
+            COMPILER_FLAGS=(-no-keep-hi-files -no-keep-o-files)
         fi
         echo "Detected ${LANGUAGE}."
 
